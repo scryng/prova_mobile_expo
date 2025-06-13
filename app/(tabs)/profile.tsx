@@ -1,7 +1,6 @@
 import { Text, View, StyleSheet } from 'react-native';
 
 export default function ProfileScreen() {
-  // Get current date dynamically in DD/MM/YYYY format
   const today = new Date();
   const formattedDate = `${today.getDate().toString().padStart(2, '0')}/${(today.getMonth() + 1).toString().padStart(2, '0')}/${today.getFullYear()}`;
 
@@ -24,7 +23,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#fff',
-    fontSize: 18, // Increased for readability
-    marginVertical: 5, // Space between lines
+    fontSize: 18,
+    marginVertical: 5,
   },
 });

@@ -21,12 +21,12 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#fff',
-    fontSize: 24, // Increased for better visibility
-    marginBottom: 20, // Space between text and image
+    fontSize: 24,
+    marginBottom: 20,
   },
   image: {
-    width: 150, // Adjust size as needed
+    width: 150,
     height: 150,
-    borderRadius: 75, // Makes the image circular (optional, since it’s a GitHub avatar)
+    borderRadius: 75,
   },
 });
